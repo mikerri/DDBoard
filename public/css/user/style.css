@@ -1,0 +1,473 @@
+@charset "utf-8";
+
+
+/*
+* Noto Sans KR (korean) http://www.google.com/fonts/earlyaccess
+*/
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans JP'),
+  url('/css/fonts/NotoSansJP-Regular.woff2') format('woff2'),
+  url('/css/fonts/NotoSansJP-Regular.woff') format('woff'),
+  url('/css/fonts/NotoSansJP-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans JP'),
+  url('/css/fonts/NotoSansJP-Bold.woff2') format('woff2'),
+  url('/css/fonts/NotoSansJP-Bold.woff') format('woff'),
+  url('/css/fonts/NotoSansJP-Bold.otf') format('opentype');
+}
+
+
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url('/css/fonts/NotoSansKR-Thin.woff2') format('woff2'),
+	url('/css/fonts/NotoSansKR-Thin.woff') format('woff'),
+	url('/css/fonts/NotoSansKR-Thin.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 300;
+	src: url('/css/fonts/NotoSansKR-Light.woff2') format('woff2'),
+	url('/css/fonts/NotoSansKR-Light.woff') format('woff'),
+	url('/css/fonts/NotoSansKR-Light.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/css/fonts/NotoSansKR-Regular.woff2') format('woff2'),
+	url('/css/fonts/NotoSansKR-Regular.woff') format('woff'),
+	url('/css/fonts/NotoSansKR-Regular.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 500;
+	src: url('/css/fonts/NotoSansKR-Medium.woff2') format('woff2'),
+	url('/css/fonts/NotoSansKR-Medium.woff') format('woff'),
+	url('/css/fonts/NotoSansKR-Medium.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/css/fonts/NotoSansKR-Bold.woff2') format('woff2'),
+	url('/css/fonts/NotoSansKR-Bold.woff') format('woff'),
+	url('/css/fonts/NotoSansKR-Bold.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 900;
+	src: url('/css/fonts/NotoSansKR-Black.woff2') format('woff2'),
+	url('/css/fonts/NotoSansKR-Black.woff') format('woff'),
+	url('/css/fonts/NotoSansKR-Black.otf') format('opentype');
+}
+
+
+
+@font-face {
+    font-family: 'arita-dotum4.0otfbold';
+    src: url('/css/fonts/arita/arita4.0_b-webfont.woff2') format('woff2'),
+         url('/css/fonts/arita/arita4.0_b-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'arita-dotum4.0otflight';
+    src: url('/css/fonts/arita/arita4.0_l-webfont.woff2') format('woff2'),
+         url('/css/fonts/arita/arita4.0_l-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'arita-dotum4.0otfmedium';
+    src: url('/css/fonts/arita/arita4.0_m-webfont.woff2') format('woff2'),
+         url('/css/fonts/arita/arita4.0_m-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'arita-dotum4.0otfsemibold';
+    src: url('/css/fonts/arita/arita4.0_sb-webfont.woff2') format('woff2'),
+         url('/css/fonts/arita/arita4.0_sb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'arita-dotum4.0otfthin';
+    src: url('/css/fonts/arita/arita4.0_t-webfont.woff2') format('woff2'),
+         url('/css/fonts/arita/arita4.0_t-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/css/icomoon/icomoon.eot?v9fhk1');
+  src:  url('/css/icomoon/icomoon.eot?v9fhk1#iefix') format('embedded-opentype'),
+    url('/css/icomoon/icomoon.ttf?v9fhk1') format('truetype'),
+    url('/css/icomoon/icomoon.woff?v9fhk1') format('woff'),
+    url('/css/icomoon/icomoon.svg?v9fhk1#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-error:before {
+  content: "\e900";
+}
+.icon-error_outline:before {
+  content: "\e901";
+}
+.icon-arrow_back:before {
+  content: "\e902";
+}
+.icon-arrow_forward:before {
+  content: "\e904";
+}
+.icon-home_filled:before {
+  content: "\e908";
+}
+.icon-home1:before {
+  content: "\e90a";
+}
+.icon-user:before {
+  content: "\e903";
+}
+
+
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, big, cite, code, del, em, img, ins, q, small, strong, sub, sup, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin:0;
+	padding:0;
+	font-weight: 400;	
+	border:0;
+}
+article, section, aside, details, figcaption, figure, header, footer, hgroup, menu, nav {
+	display: block;
+}
+
+
+body {	
+	width:100%;
+	overflow-x:hidden;
+	font-family: 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+	color: #333; 
+	font-size: 1em;
+	line-height: 1.6;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: none;
+}
+ul, ul li {
+	list-style: none;
+}
+ol {
+	list-style-type: decimal-leading-zero;;
+}
+ol li {
+	display: list-item;
+}
+hr {	
+	height: 1px; 
+	margin: 2em 0;
+	border: 0;
+	border-top: solid 1px #ddd; 
+}
+table {
+	width: 100%;
+    border: 0;
+    font-size: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption,
+legend  {
+    text-indent: -9999em;
+    font-size: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+strong, b {
+	color: #252122;
+	font-weight: 500;
+	font-size: 110%;
+}
+i, em {
+	font-style: italic;
+}
+.red {
+	color: red;
+}
+p {
+	line-height: 1.4;
+}
+
+
+
+
+/* Type */
+html {
+	font-size: 13pt;
+}
+@media only screen and (max-width: 1280px) {
+	html {
+		font-size: 12pt;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	html {
+		font-size: 11pt;
+	}
+}
+@media only screen and (max-width: 350px) {
+	html {
+		font-size: 10pt;
+	}
+}
+
+
+
+/* Form */
+input, textarea, button {
+	-webkit-appearance:none; 
+	-moz-appearance:none; 
+	appearance:none;
+}
+input, textarea, button, select {
+	-webkit-border-radius:0; 
+	-moz-border-radius:0; 
+	-o-border-radius:0; 
+	border-radius:0;
+}
+input[type="checkbox"],
+input[type="radio"] {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	background-color:#fff; 
+	-webkit-appearance:checkbox;
+}
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+	vertical-align: top;
+}
+input, textarea, select { 
+	box-sizing:border-box; 
+	max-width:96%; 
+	height:40px; 
+	padding:5px; 
+	font-size: 1rem; 
+	color: #555; 
+	font-weight: 350;
+	font-family:'Noto Sans KR', sans-serif; 
+	border:1px solid #ccc;
+}
+input[type="file"]	{ 
+	height: auto;
+	padding: 0; 
+	border: 0;
+}
+select, label { 
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+	input, textarea, select { 
+		height: 30px;
+		padding: 2px;
+		font-size: .8rem; 
+	}
+}
+
+
+
+/* Link */
+a,
+a:hover,
+button,
+button:hover {
+	text-decoration: none; 
+	outline: 0;
+}
+
+/* BTN */
+button {
+	font-family: 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+	border: 0;
+	background: none;
+	cursor: pointer;
+}
+.btn_submit.btn {
+	width:100%;
+	margin-top:6rem;
+	padding:10px 10px 15px;
+	font-size:1.3rem;
+	font-weight:700;
+	border:1px solid #555;
+	background:none;
+	transition: all .3s ease;
+}
+.btn_submit.btn:hover {
+	color: #fff;
+	background: #333;
+}
+
+.btn_bottom { /* 등록/저장 box*/
+	margin:0 auto;
+	padding:15px;
+	display:block;
+	text-align:center;
+}
+.btn_bottom a {
+	display: inline-block;
+	min-width: 120px;
+	margin: 0 2px;
+	padding: 10px 30px;
+	border-radius: 30px;
+}
+.confirm:link,
+.confirm:visited {
+	color: #fff;
+	text-decoration: none;
+	background: #d61f53;
+}
+.confirm:hover { 
+	background: #213547;
+}
+.cancel:link,
+.cancel:visited {
+	color: #fff;
+	text-decoration: none;
+	background: #555;
+}
+.cancel:hover {
+	background: #777;
+}
+
+.btn00 {
+	display: inline-block;
+    min-width: 170px;
+	padding: 5px 5px 7px;
+	font-size: 95%;
+	color: #fff;
+	text-align: center;
+	border: 1px solid #214768;
+	border-radius: 5px;
+    background: #214768;
+}
+.btn01 {	
+	border: 1px solid #39ac37;
+    background: #39ac37;
+}
+.btn01:nth-child(even) {
+    color: #128f10;
+	margin-left: 5px;
+	background: #fff;
+}
+.btn_b_blue {
+    padding: 10px 30px 12px;
+    font-size: 1.05rem;
+}
+	@media (max-width: 1024px) {
+		.btn00 {
+			min-width: 134px;
+			padding: 3px 4px 5px;
+		}
+		.btn_b_blue {
+			min-width: auto;
+			padding: .8% 2.5% .9%;
+		}
+	}
+	@media (max-width: 500px) {
+		.btn00:only-child {
+			min-width: 200px;
+		}
+		.btn_b_blue {
+			min-width: 160px;
+			padding: 1% 2.5%;
+			line-height: 1.8;
+		}
+		.btn_bottom a {
+			padding: 2%;
+		}
+	}
+
+
+
+
+
+
+/* Box Model */
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+/* Basic */
+@-ms-viewport {
+	width: device-width;
+}
+body {
+	-ms-overflow-style: scrollbar;
+}
+@media only screen and (max-width: 500px) {
+	html, body {
+		min-width: 320px;
+	}
+}
+
+caption, legend, .offscreen, .blind {
+	position:absolute !important;
+	height:1px !important;
+	width:1px !important;
+	text-indent: -9999em;
+	overflow:hidden !important;
+	clip:rect(1px 1px 1px 1px) !important;
+	clip:rect(1px,1px,1px,1px) !important;
+}
+
+.clearfix {
+	zoom:1
+}
+.clearfix:after {
+	content:"";	
+	clear:both;
+	display:block; 
+}
+
+.text-left {
+	text-align: left !important;
+}
+.text-center {
+	text-align: center !important;
+}
