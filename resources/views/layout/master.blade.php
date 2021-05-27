@@ -17,8 +17,7 @@
     <meta name="author" content="아이티앤베이직,IT&BASIC">
     <meta name="keywords" content="심플로우,SYMFLOW,symflow,웨비나,webinar,GS인증1등급,화상,실시간응답,양방향웨비나,쌍방향웨비나,양방향소통,쌍뱡항소통,쌍방향온라인교육,세미나,프리젠테이션,업플로우,다운플로우,ZOOM,줌,웹엑스,WEBEX,이벤트,EVENT,event,행사,비대면,컨퍼런스,학회,미팅,온라인수업,양방향수업,쌍방향수업,이벤트진행,이벤트행사,컨퍼런스행사,비대면행사,비대면,온라인세미나,양방향세미나,쌍방향세미나,학회발표,사내행사,온라인행사,양방향행사,쌍방향행사">
     <meta name="google-site-verification" content="JPZ_EzhI49GAvNc_27pd3Z8mkCRNL0Vyxk_QyqKpyog">
-    <meta name="naver-site-verification" content="de05886360bdb9e913776150ed406a0ded078a5d">
-    <meta name="naver-site-verification" content="27f21c373f0a290b49f11a53893df5ddc8a6265c">
+    <meta name="naver-site-verification" content="f20217b80d8523ef453e15983d76ec44a70e7ca7">
 
     <title>심플로우 @yield('title','SYMFLOW:웨비나:실시간 온라인교육,세미나,행사,이벤트')</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
